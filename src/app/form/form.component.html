@@ -1,0 +1,25 @@
+<div>
+       <!--<form>
+          
+          <label for="age">Age</label>
+          <input type="text"  placeholder="Your age..">
+      
+          <label for="city">City</label>
+          <input type="text"  placeholder="Your city..">
+          
+          
+          <button (click)="onClick()">Click me!</button>
+        </form> --> 
+          <label for="name">Name</label>
+          <input type="text" [(ngModel)]="name" placeholder="Your Name..">
+
+          <label for="age">Age</label>
+          <input type="text" [(ngModel)]="age" placeholder="Your Age..">
+
+          <label for="city">City</label>
+          <input type="text" [(ngModel)]="city" placeholder="Your Cyty..">
+
+          <button (click)="buttonClick()">Submit</button>
+        
+        
+      </div>
